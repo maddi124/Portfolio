@@ -3,16 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title> My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
 </head>
 <body>
     <!---->
     <header>
-        <h1>Madeline Garcia-Cabrera</h1>
+        <h1>
+            Madeline Garcia-Cabrera
+        </h1>
         <nav>
             <ul>
-                <il><a href="#">About Me</a></il>
-                <il><a href="#">Work</a></il>
-                <il><a href="#">Contact Me</a></il>
+                <il>
+                    <a href="#about-me">About Me</a>
+                </il>
+                <il>
+                    <a href="#work">Work</a>
+                </il>
+                <il>
+                    <a href="#contact-me">Contact Me</a>
+                </il>
             </ul>
         </nav>
     </header>
@@ -21,8 +30,10 @@
         <img src="./assets/images/avatar.png" alt="placeholder" />
     </section>
     <!--ABOUT ME SECTION-->
-    <section>
-        <h2>About Me</h2>
+    <section id="about-me">
+        <aside>
+            <h2>About Me</h2>
+        </aside>
             <p>
                 A website is a collection of web pages and related content that is identified by 
                 a common domain name and published on at least one web server. Notable examples are 
@@ -31,20 +42,38 @@
             </p>
     </section>
     <!--WORK SECTION-->
-    <section>
-        <h2>Work</h2>
-        <header>Project holder</header>
-
-        <header>Project holder</header>
-
-        <header>Project holder</header>
-
-        <header>Project holder</header>
-
+    <section id="work">
+        <aside>
+            <h2>Work</h2>
+        </aside>
+<div class="projectholders">
+    <section class="blocks">
+        <h3>Project holder</h3>
+        <img src="./assets/images/projectholder1.jpg" alt="Project placeholder" />
+        <p> </p>
+    </section>
+    <section class="blocks">
+        <h3>Project holder</h3>
+        <img src="./assets/images/projectholder2.jpeg" alt="Project placeholder" />
+        <p> </p>
+    </section>
+    <section class="blocks">
+        <h3>Project holder</h3>
+        <img src="./assets/images/projectholder3.jpeg" alt="Project placeholder" />
+        <p> </p>
+    </section>
+    <section class="blocks">
+        <h3>Project holder</h3>
+        <img src="./assets/images/projectholder4.png" alt="Run Buddy" />
+        <p> </p>
+    </section>
+</div>
     </section>
     <!--CONTACT SECTION-->
-    <section>
-        <h2>Contact Me</h2>
+    <section id="contact-me">
+        <aside>
+            <h2>Contact Me</h2>
+        </aside>
         <nav>
             <ul>
                 <il>Phone:<a href="#">888-888-8888</a></il>
@@ -53,6 +82,7 @@
             </ul>
         </nav>
     </section>
+    <!--FOOTER SECTION-->
     <footer> 
         <h2>❤️ Made by Madeline Garcia-Cabrera</h2>
     </footer>
