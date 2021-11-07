@@ -61,10 +61,56 @@ header nav ul li a {
     margin-left: auto;
     margin-right: auto;
 }
-/* ASIDE TAG*/
-aside {
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
+/* USER-PROFILE SECTION END---*/
+/*ABOUT ME SECTION---*/
+.aboutme {
+    padding: 20px 35px;
+    margin: 80px;
+    border: 30px;
+    border-bottom: solid #21130d;
+  
+}
+.aboutme h2 {
+    font-size: 35px;
+    font-weight: bold;
+    float: left;
+    justify-content: space-between;
+
+}
+.aboutme p {
+  
+    font-weight: lighter;
+    font-size: 20px;
+ 
+
+}
+/*WORK SECTION---*/
+.projects h2 {
+    font-size: 35px;
+    font-weight: bold;
     float: left;
 }
+
+/*WORK SECTION END---*/
+/*CONTACT ME SECTION---*/
+.info h2 {
+    font-size: 35px;
+    font-weight: bold;
+    float: left;
+}
+
+/*CONTACT ME SECTION---*/
+/*FOOTER SECTION--*/
+footer {
+    background-color: var(--tertiarty);
+    padding: 40px 35px;
+    justify-content: space-between;
+}
+footer h2 {
+    color:var(--secondary);
+    font-size: 30px;
+    
+
+}
+
+/*FOOTER SECTION ENDS--*/
