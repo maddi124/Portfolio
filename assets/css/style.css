@@ -52,6 +52,7 @@ header nav ul li a {
 /*HEADER SECTION END-----*/
 /*USER-PROFILE SECTION----*/
 .profile div{
+    flex:0 0 1;
     padding: 15px;
     margin: 0;
     background-color: var(--secondary);
@@ -68,37 +69,81 @@ header nav ul li a {
     margin: 80px;
     border: 30px;
     border-bottom: solid #21130d;
-  
 }
 .aboutme h2 {
     font-size: 35px;
     font-weight: bold;
     float: left;
     justify-content: space-between;
-
 }
 .aboutme p {
-  
     font-weight: lighter;
     font-size: 20px;
- 
-
+    text-align: center;
 }
 /*WORK SECTION---*/
-.projects h2 {
+.container {
+    background-color: #ffff;
+}
+.container h2{
     font-size: 35px;
     font-weight: bold;
     float: left;
+    justify-content: space-between;
 }
+.projectholders {
+    flex: 0 0 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blocks {
+   
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.blocks img {
+    width: 100%;
+}
+.blocks h3 {
+    color: var(--tertiarty);
 
+}
 /*WORK SECTION END---*/
 /*CONTACT ME SECTION---*/
+.info {
+    padding: 20px 35px;
+    margin: 80px;
+    border: 30px;
+    border-top: solid #2113;
+}
 .info h2 {
     font-size: 35px;
     font-weight: bold;
     float: left;
+    /* padding: 100px; */
 }
-
+.info a {
+    padding: 15px;
+    margin: 0;
+}
+.info nav {
+    margin: 7px 0;
+}
+.info nav ul{
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.info nav ul li {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
 /*CONTACT ME SECTION---*/
 /*FOOTER SECTION--*/
 footer {
@@ -108,9 +153,7 @@ footer {
 }
 footer h2 {
     color:var(--secondary);
-    font-size: 30px;
-    
-
+    font-size: 20px;
+     float: right;
 }
-
 /*FOOTER SECTION ENDS--*/
