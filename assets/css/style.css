@@ -61,25 +61,40 @@ header nav ul li a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-width: 1px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
 }
 /* USER-PROFILE SECTION END---*/
 /*ABOUT ME SECTION---*/
 .aboutme {
     padding: 20px 35px;
-    margin: 80px;
+    margin: 35px;
+    padding: 20px;
     border: 30px;
     border-bottom: solid #21130d;
+    
+}
+.flex {
+    display: flex;
 }
 .aboutme h2 {
-    font-size: 35px;
-    font-weight: bold;
-    float: left;
-    justify-content: space-between;
+    font-size: 48px;
+    color: #024e76;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+
 }
 .aboutme p {
-    font-weight: lighter;
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
     font-size: 20px;
+    margin: 0 auto;
     text-align: center;
+   
 }
 /*WORK SECTION---*/
 .container {
@@ -90,6 +105,8 @@ header nav ul li a {
     font-weight: bold;
     float: left;
     justify-content: space-between;
+    padding:30px;
+    margin: 30px;
 }
 .projectholders {
     flex: 0 0 400px;
