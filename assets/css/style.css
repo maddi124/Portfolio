@@ -18,7 +18,8 @@ header {
     background: var(--tertiarty);
     justify-content: space-between;
     padding: 20px 35px;
-
+    position: sticky;
+    z-index: 9999;
 }
 header h1 {
     font-size: 36px;
@@ -38,6 +39,7 @@ header a {
 header nav {
     margin: 7px 0;
     float: right;
+    display: flex;
 }
  header nav a:hover {
     color: #fff;
@@ -121,6 +123,13 @@ header nav ul li a {
     flex-wrap: wrap;
     display: flex;
 }
+.fade{
+    opacity: 50%;
+}
+.fade:hover{
+    opacity: 100%;
+    transition:1000ms;
+}
 .blocks {
     border-style: solid;
     border-width: 1px;
@@ -130,14 +139,19 @@ header nav ul li a {
     margin: 10px;
     flex-wrap: wrap;
     width: 500px;
+  
 }
+/* .blocks:first-child{
+    width:900px;
+   
+} */
 .blocks img {
     width: 100%;
- 
 }
-.blocks h3 {
+.blocks header {
     color: var(--tertiarty);
-
+    background-color: #ffff;
+    font-size: 25px;
 }
 /*WORK SECTION END---*/
 /*CONTACT ME SECTION---*/
@@ -153,7 +167,6 @@ header nav ul li a {
     float: left;
     padding: 30px;
     border-right: 3px solid;
-  
 }
 .info a {
     padding: 15px;
@@ -187,3 +200,90 @@ footer h2 {
      float: right;
 }
 /*FOOTER SECTION ENDS--*/
+/*MEDIA SECTION*/
+@media screen and (max-width:980px ) {
+header h1 {
+    padding-left: 22%;
+
+}
+header a {
+    font-size: 127%;  
+}
+header nav {
+    display:block; 
+    width:100%; 
+    text-align:center;
+    padding-top: 1%;
+}
+header{
+    padding-bottom: 7%;
+}
+.profile div img {
+    margin-left: 30%;
+} 
+.container h2{
+    border-right: none;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin: 0;
+}
+.blocks{
+    position: relative;
+    top: 25%;
+    right:150%;
+   
+}
+.projectholders{
+    padding-bottom: 15%;
+}
+.info {
+    padding-top:0% ;
+}
+.info h2{
+    border-right: none;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin: 0;
+}
+footer h2, footer div {
+    text-align: center;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+header h1 {
+    font-size: 0px;
+}
+
+.blocks{
+    flex:1 100%;
+    position: relative;
+    width: 250%; 
+    right:317%; 
+}
+.projectholders{
+    padding-bottom: 18%;
+}
+}
+@media screen and (max-width: 575px) {
+header h1 {
+    font-size: 30px;
+    padding-left: 13%;
+}
+.blocks {
+    position: relative;
+    flex: 1 100%;
+     width: 229%; 
+     right: 265%; 
+}
+.projectholders{
+    padding-bottom: 25%;
+}
+}
+   
+    
+
