@@ -139,12 +139,7 @@ header nav ul li a {
     margin: 10px;
     flex-wrap: wrap;
     width: 500px;
-  
 }
-/* .blocks:first-child{
-    width:900px;
-   
-} */
 .blocks img {
     width: 100%;
 }
@@ -255,34 +250,41 @@ footer h2, footer div {
   }
 }
 @media screen and (max-width: 768px) {
-header h1 {
-    font-size: 0px;
-}
-
 .blocks{
     flex:1 100%;
-    position: relative;
-    width: 250%; 
-    right:317%; 
+    width: 310%; 
+    display: inline-block;
+    right:323%;
 }
 .projectholders{
     padding-bottom: 18%;
-}
+} 
 }
 @media screen and (max-width: 575px) {
+header{
+    padding-bottom: 9%;
+} 
+header a {
+    font-size: 115%;  
+}
+
 header h1 {
     font-size: 30px;
     padding-left: 13%;
 }
+.profile div img {
+    margin-left: 8%;
+} 
 .blocks {
+    width: 194%;
+    display: inline-block;
+    right: 203%;
     position: relative;
     flex: 1 100%;
-     width: 229%; 
-     right: 265%; 
 }
 .projectholders{
-    padding-bottom: 25%;
-}
+    padding-bottom: 40%;
+} 
 }
    
     
