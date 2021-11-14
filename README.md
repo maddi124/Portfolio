@@ -9,7 +9,7 @@ By buliding a Portfolio page it will showcase my skills in web development to fu
 * [website in 575px](#This-is-the-web-page-in-575px)
 * [User Story](#User-story)
 * [Acceptance Criiteria](#Acceptance-Criteria)
-* [Credit](Credit)
+* [Credits](#Websites-that-I-used)
  
 
 ## This is the web page in normal screen 
@@ -26,11 +26,11 @@ why my code that I added in Media Queries was not being display. I had to look b
 ``` html
  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
  ```
- ## This is the web page in 980px
+## This is the web page in 980px
 ![Portfolio Page_980](./assets/images/MyPortfolio_980.png)
-## This is the web site page in 790px
+## This is the web page in 790px
 ![Portfolio Page_980](./assets/images/MyPortfolio_790.png)
-## This is the web site page in 575px
+## This is the web page in 575px
 ![Portfolio Page_980](./assets/images/MyPortfolio_575.png)
 
 
@@ -58,7 +58,6 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
-# Credits
-websites that I used during coding
+# Websites that I used
 * [w3schools.com](https://www.w3schools.com/css/css3_mediaqueries_ex.asp)<br>
 * [web.dev](https://web.dev/responsive-web-design-basics/)
