@@ -25,7 +25,10 @@ header {
     background-color: var(--secondary);
     /* position: sticky; */
 }
-
+/* Home */
+.profile-picture{
+    border-radius: 50%;
+}
 
 
 
