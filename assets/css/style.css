@@ -23,5 +23,26 @@ header {
     padding: 5%;
     margin: auto;
     background-color: var(--secondary);
+    /* position: sticky; */
 }
 
+
+
+
+
+
+/* Footer */
+footer{
+    background-color: var(--secondary);
+    padding: 10px;
+}
+.fa-brands,.fa-solid{
+    font-size: 40px;
+}
+.col-lg-2 {
+    width: 6%;
+}
+.footertext{
+    float: right;
+    font-size: 20px;
+}
