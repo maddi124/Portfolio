@@ -35,7 +35,7 @@
        <div class="container">
            <div class="row">
                <div class="col">
-                <h1>Hi, I'm Madeline</h1>
+                <h1 id="namechange">Hi, I'm Madeline</h1>
                 <p>Personable and passionate back-end developer with an associate degree in computer technology educated at York 
                 Technical college and a full stack certificate from the University of North Carolina at Charlotte. I have gained experience in the foundations of web development while honing my skills in JavaScript, HTML,CSS, React.js, Node.js, Express, Handlebars, SQL, 
                 and responsive web design to create meaningful web applications. I am able to collaborate and work with a team while solving problems in high-stress environments. Excited to leverage skills in the future as part of a fast-paced, quality-driven team to build better experiences on the web.
@@ -48,35 +48,56 @@
                         <button type="button" class="btn btn-secondary btn-lg">Resume</button>
                         </div>
                     </div>
-                    <div class="row">
-                        <h2>Skills</h2>
-                            <div class="col">
+                    <div class="row ">
+                        <h2 class="skills">Skills</h2>
+                            <div class="col col-sm-2">
                                 <i class="fa-brands fa-html5"></i>
                             </div>
-                            <div class="col">
+                            <div class="col col-sm-2">
                                 <i class="fa-brands fa-css3-alt"></i>
                             </div>
-                            <div class="col">
+                            <div class="col col-sm-2">
                                 <i class="fa-brands fa-js"></i>
                             </div>
-                            <div class="col">
+                            <div class="col col-sm-2">
                                 <i class="fa-brands fa-react"></i>
                             </div>
-                            <div class="row">
-                            <div class="col">
+                            <div class="row skillrow2">
+                            <div class="col col-sm-2">
                                 <i class="fa-brands fa-node-js"></i>
                             </div>
-                            <div class="col">
+                            <div class="col col-sm-2">
                                 <i class="fa-brands fa-github"></i>
                             </div>
-                            <div class="col">
-                                
+                            <div class="col col-lg-6">
+                                <p class="skillstext"> ....other back-end technologies</p>
                             </div>
                             </div>
                     </div>
                     <div class="row">
                         <h2>Education</h2>
+                            <div class="col col-sm-2">
+                                <img src="./assets/images/UNCC.png" class ="college" width="50" height="50"alt="university of north carolina charlotte" />
+                            </div>
+                            <div class="col col-sm-6">
+                                <h2 class="collegename">University of North Carolina Charlotte</h2>
+                                <div class="row">
+                                    <p>Full-stack Web Development-Certificate</p>
+                                </div>
+                            </div> 
                     </div>
+                    <div class="row">        
+                        <div class="col col-sm-2">
+                            <img src="./assets/images/YTC.png" class ="college" width="50" height="50"alt="york technical college" />
+                        </div>
+                        <div class="col col-sm-6">
+                            <h2 class="collegename">York Technical College</h2>
+                            <div class="row">
+                                <p>Associate in Applied Science, Computer Engineering Technology</p>
+                            </div>
+                        </div>
+                    </div>
+                   
                </div>
                <div class="col">
                 <img src="./assets/images/profile-pic.jpg" class ="profile-picture" width="500" height="1000"alt="placeholder" />
@@ -105,6 +126,6 @@
 
     </div>
    </footer>
-   
+   <script src="assets/js/script.js"></script>
 </body>
 </html>

@@ -23,11 +23,29 @@ header {
     padding: 5%;
     margin: auto;
     background-color: var(--secondary);
-    /* position: sticky; */
+    position: sticky;
 }
 /* Home */
+
 .profile-picture{
     border-radius: 50%;
+}
+.col-lg-6 {
+    padding: 4%;
+}
+.skillrow2{
+    padding: 2%;
+}
+.skills{
+    padding: 2px;
+}
+.skillstext{
+    font-weight: bold;
+    font-size: 15px;
+}
+.collegename{
+    font-size: 17px;
+    font-weight: bold;
 }
 
 
