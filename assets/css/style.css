@@ -23,10 +23,16 @@ header {
     padding: 5%;
     margin: auto;
     background-color: var(--secondary);
-    position: sticky;
+    position: fixed;
+    width: 100%;
+}
+.nav-link {
+    font-size: 20px;
 }
 /* Home */
-
+#hero{
+    padding-top: 8%;
+}
 .profile-picture{
     border-radius: 50%;
 }
@@ -60,6 +66,7 @@ img{
 /* About me */
 #about-me{
     height: 100%;
+    padding-top: 7%;
 }
 .aboutmetext{
     padding-top: 5%;
