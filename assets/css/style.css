@@ -37,18 +37,27 @@ header {
     padding: 2%;
 }
 .skills{
-    padding: 2px;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
 .skillstext{
     font-weight: bold;
     font-size: 15px;
 }
+.education{
+    padding-bottom: 15px;
+}
 .collegename{
     font-size: 17px;
     font-weight: bold;
 }
-
-
+/* About me */
+#about-me{
+    height: 100%;
+}
+.aboutmetext{
+    padding-top: 5%;
+}
 
 
 
