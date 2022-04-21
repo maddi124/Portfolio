@@ -34,7 +34,7 @@ header {
     padding-top: 8%;
 }
 .profile-picture{
-    border-radius: 50%;
+    border-radius: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .col-lg-6 {
