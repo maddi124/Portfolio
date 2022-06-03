@@ -2,294 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title> My Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
     crossorigin="anonymous"/>
    <script src="https://kit.fontawesome.com/d9a87880bb.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+   <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
 </head>
 <body>
-    <header class="d-flex flex-wrap py-3 mb-4 border-bottom topnav-right">
-        <ul class=" nav nav-pills">
-            <li class="nav-item">
-                <a class="nav-link " href="#hero">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="#about-me">About me</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#Work">Work</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contact-me">Contact me</a>
-            </li>
-        </ul>
-   </header>
-   <section id="hero">
-       <div class="container ">
-           <div class="row ">
-               <div class="col ">
-                    <h1 id="namechange">Hi, I'm Madeline </h1>
-                        <p> My name is Madeline. I have a associate's degree in Computer Engineering. I'm currently changing my career to web development. 
-                            I enrolled in this coding bootcamp to learn skills that would help me create an AMAZING websites for companies or 
-                            individual. I am a team-player and excellent problem solver. I may be a beginner, but I'm always ready to learn.    
-                        </p>
-                        <div class="row">
-                            <div class="col col-sm-4">
-                                <button type="button" class="btn  btn-lg">Contact Me</button>
-                            </div>
-                            <div class="col col-sm-2">
-                                <button type="button" class="btn  btn-lg">Resume</button>
-                            </div>
-                        </div>
-                </div>
-               <div class="col">
-                    <img src="./assets/images/profile-pic.jpg" class ="profile-picture" width="300" height="300"alt="placeholder" />
-               </div>
-            </div>
-           </div>
-       </div>
-   </section>
-   <section id="about-me">
-        <div class="container">
-            <div class="row">
-                    <h1>About Me</h1>
-                <div class="col">
-                    <p>Personable and passionate back-end developer with an associate degree in computer technology educated at York 
-                    Technical college and a full stack certificate from the University of North Carolina at Charlotte. I have gained experience in the foundations of web development while honing my skills in JavaScript, HTML,CSS, React.js, Node.js, Express, Handlebars, SQL, 
-                    and responsive web design to create meaningful web applications. I am able to collaborate and work with a team while solving problems in high-stress environments. Excited to leverage skills in the future as part of a fast-paced, quality-driven team to build better experiences on the web.
-                    </p>
-                </div>
-                <div class="col">
-                    <div class="row ">
-                        <h2 class="skills">Skills</h2>
-                            <div class="col col-sm-2">
-                                <i class="fa-brands fa-html5"></i>
-                            </div>
-                            <div class="col col-sm-2">
-                                <i class="fa-brands fa-css3-alt"></i>
-                            </div>
-                            <div class="col col-sm-2">
-                                <i class="fa-brands fa-js"></i>
-                            </div>
-                            <div class="col col-sm-2">
-                                <i class="fa-brands fa-react"></i>
-                            </div>
-                    <div class="row skillrow2">
-                            <div class="col col-sm-2">
-                                <i class="fa-brands fa-node-js"></i>
-                            </div>
-                            <div class="col col-sm-2">
-                                <i class="fa-brands fa-github"></i>
-                            </div>
-                            <div class="col col-lg-6">
-                                <p class="skillstext"> ....other back-end technologies</p>
-                            </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row ">
-                <h2 class="education">Education</h2>
-                    <div class="col col-sm-2">
-                        <img src="./assets/images/UNCC.png" class ="college" width="50" height="50"alt="university of north carolina charlotte" />
-                    </div>
-                    <div class="col col-sm-6">
-                        <h2 class="collegename">University of North Carolina Charlotte</h2>
-                        <div class="row">
-                            <p>Full-stack Web Development-Certificate</p>
-                        </div>
-                    </div> 
-            </div>
-            <div class="row">        
-                <div class="col col-sm-2">
-                    <img src="./assets/images/YTC.png" class ="college" width="50" height="50"alt="york technical college" />
-                </div>
-                <div class="col col-sm-6">
-                    <h2 class="collegename">York Technical College</h2>
-                    <div class="row">
-                        <p>Associate in Applied Science, Computer Engineering Technology</p>
-                    </div>
-                </div>
-            </div>
-       </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Portfo<span>lio</span></a></div>
+            <ul class="menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About me</a></li>
+              <li><a href="#">Work</a></li>
+              <li><a href="#">Contact me</a></li>
+            </ul>
         </div>
-   </section >
-   <section id="Work">
-       <div class="container">
-           <div class="row">
-               <h2>Work</h2>
-               <div class="col image">
-                    <img src="./assets/images/laughing-spirits.png" class ="projectsimg" width="300" height="300"alt="laughing-spirits" />
-                <div class= "row ">
-                    <div class="col overlay">
-                        <h2 class="imgtitle">laughing-spirits</h2> 
-                        <p class="imgdec">HTML/CSS/JS</p>
-                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#myModal">More Info</button>
-                    </div>
-                </div>
-               </div>
-               <div class="col image">
-                    <img src="./assets/images/Case_tracker.png" class ="projectsimg" width="300" height="300"alt="Case-Tracker" />
-                    <div class= "row ">
-                    <div class="col overlay">
-                        <h2 class="imgtitle">Case-Tracker</h2> 
-                        <p class="imgdec">HTML/CSS/JS/RESTful API</p>
-                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#myModal2">More Info</button>
-                    </div>
-                    </div>
-                </div>
-                <div class="col image">
-                        <img src="./assets/images/Habit-Tracker.png" class ="projectsimg" width="300" height="300"alt="Habit-Tracker" />
-                    <div class= "row ">
-                    <div class="col overlay">
-                        <h2 class="imgtitle">Habit-Tracker</h2> 
-                        <p class="imgdec">React</p>
-                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#myModal3">More Info</button>
-                    </div>
-                    </div>
-                </div>
-           </div>
-       </div>
-   </section>
-<!-- MODAL START -->
-      <div class="modal fade" id="myModal"  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog ">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title">laughing-spirits</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>
-                        Laughing Spirits provides the user with a chance to combine humor and intoxication! We allow users to pick a type of alcoholic beverage and depending on the beverage, a joke displays on screen! (Description)
-Laughing always lightens the mood and alcohol enhances those laughs. Why not make a program that combines the two!(Motivation for Development?)
-                    </p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary"><a href ="https://chapmanh10.github.io/laughing-spirits/">View Site</a></button>
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="myModal2"  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog ">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title">Case-Tracker</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>
-                        This application is a kanban for a company to use to track employee cases. The user story is: An employer would like to keep track of it's employees exposure to Covid19. 
-                        It uses this information to make sure that the employee is quarentened for the correct number of days to keep others safe and to stop the spread of Covid19. 
-                        It also uses this information to pass onto the contact tracing office who job it is to notify potential employees of exposure. 
-                        Each employee case is managed initially through the employee's direct magager and this information is included in each case. 
-                        The date of sympotms and positive testing are also documented. The kanban is organized with cases under the catagories of pending and completed
-                    </p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary"><a href ="https://fathomless-cliffs-14331.herokuapp.com/">View Site</a></button>
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="myModal3"  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog ">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title">Habit-Tracker</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>
-                        Habit Social is the combination of a social network site and a habit tracker. 
-                        Users can create and track habits of their choosing. 
-                        They can post updates on the habits they are currently tracking and comment on other users updates as well.
-                    </p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary"><a href ="https://thawing-sea-89785.herokuapp.com/">View Site</a></button>
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-<!-- MODAL END -->
-    <section id="contact-me">
-        <div class="container">
-            <h2 class="h1-responsive font-weight-bold text-center my-4">Let's talk and Chat </h2>
-            <p class="text-center w-responsive mx-auto mb-5">
-                Do you have any questions? Please do not hesitate to contact me directly. Just fill the form and I will get in touch with you shortly.
-            </p>
-            <div class="row">
-                <div class="col">
-                    <form id="content-form" class="">
-                        <div class="row">
-                            <div class="col">
-                                <div class="">
-                                    <input type="text" id="email" class="form-control">
-                                    <label for="name" class="">Full Name</label>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="">
-                                    <input type="text" id="name" class="form-control">
-                                    <label for="email" class="">Email</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <div class="">
-                                    <input type="text" id="subject" class="form-control">
-                                    <label for="subject" class="">Subject</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <div class="">
-                                    <input type="text" id="message" class="form-control">
-                                    <label for="message" class="">Message</label>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                    <div class="">
-                    <button type="button">Submit</button>
-                    </div>
-                    <div class="Status"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-   <footer>
-    <div class="container">
-        <div class="row justify-content-md-center">
-            <div class="col col-lg-2">
-             <i class="fa-brands fa-github"></i>
-          </div>
-          <div class="col col-lg-2">
-             <i class="fa-brands fa-linkedin"></i>
-             </div>
-             <div class="col col-lg-2">
-             <i class="fa-solid fa-share"></i>
-             </div>
-          </div>
-        </div>
-    <div class="row">
-        <div class="col">
-            <h2 class="footertext">❤️ Made by Madeline Garcia-Cabrera</h2>
-        </div>
+    </nav>
 
-    </div>
-   </footer>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
