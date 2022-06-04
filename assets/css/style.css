@@ -76,3 +76,25 @@
     font-weight: 500;
 }
 /* site link */
+.site {
+    display: flex;
+
+}
+.site .max-width{
+    margin: auto 0 auto 40px;
+}
+.site  ul li a {
+    font-size: 50px;
+   text-decoration: none;
+   margin-left: 25px;
+}
+.site  li{
+    position: relative;
+    top: 200px;
+    left: 175px;
+    list-style-type: none;
+    margin-bottom: 15;
+}
+.fa-brands, .fa-solid{
+    color: #800020;
+}
