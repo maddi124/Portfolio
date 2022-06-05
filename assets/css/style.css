@@ -16,9 +16,9 @@
 /* Navbar */
 .navbar{
     position: fixed;
-    padding: 0 15px;
+    padding: 30px 0px;
     width: 100%;
-    background-color: #a1b0ab;
+    /* background-color: #a1b0ab; */
     font-family: 'Ubuntu', sans-serif;
 }
 .navbar .max-width{
@@ -42,6 +42,11 @@
     font-weight: 500;
     margin-left: 25px;
     text-decoration: none;
+    transition: color 0.3 ease;
+}
+.navbar .menu li a:hover{
+    color:#800020;
+
 }
 /* Home section */
 .home{
@@ -78,7 +83,7 @@
 /* site link */
 .site {
     display: flex;
-
+  
 }
 .site .max-width{
     margin: auto 0 auto 40px;
@@ -94,7 +99,8 @@
     left: 175px;
     list-style-type: none;
     margin-bottom: 15;
+  
 }
 .fa-brands, .fa-solid{
-    color: #800020;
+    color: #fff;
 }
