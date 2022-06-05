@@ -4,7 +4,14 @@ $(document).ready(function(){
             $('.navbar').addClass("sticky");
         }
         else{
-            $('.navbar').removeClass("sticky"); 
+            $('.navbar').removeClass("sticky");
         }
-    })
-})
+    });
+    // Navbar menu button
+$('.menubtn').click(function(){
+    $('.navbar .menu').toggleClass("active");
+    $('.menubtn i').toggleClass("active");
+});
+
+
+});
