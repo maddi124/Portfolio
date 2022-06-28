@@ -68,9 +68,11 @@
     color: #fff;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
+   
 }
 .home .max-width{
     margin: auto 0 auto 40px;
+   
 }
 .home .home-content .text1{
     font-size:27px;
@@ -92,9 +94,27 @@
     color: 	#FF0000;
     font-weight: 500;
 }
+.home .home-content  a{
+    display: inline-block;
+    background: #a1b0ab;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #a1b0ab;
+    transition: all 0.3s ease;
+}
+.home .home-content  a:hover{
+    color: #FF0000;
+    background: none;
+}
 /* site link */
 .site {
     display: flex;
+    /* position: relative; */
+    top:6vh;
+    left: 53vh;
 }
 .site .max-width{
     margin: auto 0 auto 40px;
@@ -103,11 +123,7 @@
     display: block;
 }
 .site .links li a {
-
-    top:6vh;
-    left: 53vh;
-    height: 91px;
-    display: inline;
+    display: inline-block;
     font-size: 50px;
    margin-left: 25px;
 
@@ -117,7 +133,7 @@
   
 } 
 .fa-brands, .fa-solid{
-    color: #fff;
+    color: #800020;
 }
 
 /* @media  */
@@ -168,7 +184,10 @@
     }
     .home .home-content .text3{
         font-size:35px;
-      
+    }
+    .home .home-content a{
+        font-size: 23px;
+        padding: 10px 30px;
     }
 }
 @media screen and (max-width: 690px){
@@ -182,6 +201,10 @@
     .max-width{
         padding: 0 23px;
     }
+    .home .home-content a{
+        font-size: 20px;
+        padding: 9px 20px;
+    }
  }
  @media screen and (max-width: 519px){
     .home .home-content .text2{
@@ -191,5 +214,4 @@
     .home .home-content .text3{
         font-size:27px;
     }
-    
  }
