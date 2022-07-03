@@ -114,7 +114,18 @@
     color: #FF0000;
     background: none;
 }
-
+.site-content{
+    display: flex;
+}
+.links{
+    display: flex;
+    font-size: 15px;
+    margin-left: 50px;
+    list-style: none;
+}
+.links li{
+    margin: 0 10px;
+}
 /* About me section */
 section{
     padding: 100px 0;
