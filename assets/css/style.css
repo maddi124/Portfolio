@@ -126,6 +126,11 @@
 .links li{
     margin: 0 10px;
 }
+.site-content .links .site{
+    font-size: 25px;
+    border-radius: 50px;
+}
+
 /* About me section */
 section{
     padding: 100px 0;
