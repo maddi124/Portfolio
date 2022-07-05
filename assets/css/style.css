@@ -317,14 +317,11 @@ section{
     margin: 20px;
     background: #a1b0ab;
     color: #fff;
-    /* display: flex; */
-    /* width: 100%; */
     flex: 1;
    
 }
-
 .project-bio {
-    padding: 25px;
+    padding: 25px 25px 15px 25px;
     line-height: 1.3;
     
 }
@@ -349,7 +346,18 @@ section{
 .project-bio  p {
     font-size: 17px;  
 } 
-
+.project-link{
+    display: flex;
+}
+.linkbox{
+    display: flex;
+    font-size: 40px;
+    margin-left: 50px;
+    list-style: none;
+}
+.linkbox li{
+    margin: 0 20px;
+}
 
 
 
