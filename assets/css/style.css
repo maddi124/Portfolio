@@ -415,9 +415,16 @@ section{
 .contactme .contactme-content .row .contactinfo{
     margin-left: 30px;
 }
-
-
-
+.contactme .contactme-content .row i{
+    font-size: 25px;
+    color: #a1b0ab;
+}
+.contactme .contactme-content .contactinfo .header{
+    font-weight: 500;
+}
+.contactme .contactme-content .contactinfo .subheader{
+    color: #333;
+}
 /* @media  */
 @media screen and (max-width: 1300px){
     .home .max-width{
