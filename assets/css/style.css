@@ -168,7 +168,7 @@ section{
     background:#fff;
     transform: translateX(-50%);
 }
-.about .about-content{
+.about .about-content, .contactme .contactme-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -358,14 +358,63 @@ section{
 .linkbox li{
     margin: 0 20px;
 }
+/* contact me section */
+.contactme .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
 
-
-
-
-
-
-
-
+.contactme .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background:#000000;
+    transform: translateX(-50%);
+}
+.contactme .title::after{
+    content: "Reach Out";
+    position: absolute;
+    bottom: -12px;
+    font-size: 20px;
+    color: #800020;
+    left: 50%;
+    padding: 5px;
+    background:#fff;
+    transform: translateX(-50%);
+}
+.contactme{
+    font-family: 'Poppins', sans-serif;
+}
+.contactme .contactme-content .column{
+    width: calc(50% - 30px);
+}
+.contactme .contactme-content .left p{
+ text-align: justify;
+}
+.contactme .contactme-content .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.contactme .contactme-content .left .icons{
+    margin: 10px 0;
+}
+.contactme .contactme-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contactme .contactme-content .row .contactinfo{
+    margin-left: 30px;
+}
 
 
 
