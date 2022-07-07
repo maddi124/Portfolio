@@ -479,14 +479,13 @@ section{
     color: #FF0000;
     background: none;
 }
-
-
-
-
-
-
-
-
+/* footer section */
+footer{
+    font-family: 'Poppins', sans-serif;
+    background-color: #a1b0ab;
+    padding: 20px 23px;
+    color: #fff;
+}
 
 /* @media  */
 @media screen and (max-width: 1300px){
